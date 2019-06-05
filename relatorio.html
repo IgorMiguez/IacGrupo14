@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Consulta de Avaliação</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
+<link rel="stylesheet" href="css/matrix-style.css" />
+<link rel="stylesheet" href="css/matrix-media.css" />
+<link href="font-awesome/css/font-awesome.css" rel="stylesheet" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<!--Header-part-->
+<div id="header">
+  <h1><a href="dashboard.html">Consulta Avaliação</a></h1>
+</div>
+<!--close-Header-part--> 
+
+<!--top-Header-menu-->
+<div id="user-nav" class="navbar navbar-inverse">
+  <ul class="nav">
+    <li class=""><a title="" href="login.html"><i class="icon icon-share-alt"></i> <span class="text">Sair</span></a></li>
+  </ul>
+</div>
+
+<!--start-top-serch-->
+<div id="search">
+  <input type="text" placeholder="Busque aqui..."/>
+  <button type="submit" class="tip-bottom" title="Search"><i class="icon-search icon-white"></i></button>
+</div>
+<!--close-top-serch--> 
+
+<!--sidebar-menu-->
+<div id="sidebar"> <a href="#" class="visible-phone"><i class="icon icon-inbox"></i> Formulário de Avaliação</a>
+  <ul>
+    <li class="active"><a href="index.html"><i class="icon icon-home"></i> <span>Página inicial</span></a> </li>
+    <li class="submenu"> <a href="#"><i class="icon-user"></i> <span>Funcionário</span> <span class="label label-important">2</span></a>
+      <ul>
+        <li><a href="funcionario-cadastro.html"><i class="icon-plus-sign"></i> Cadastro</a></li>
+        <li><a href="funcionario-consulta.html"><i class="icon-search">   </i> Consulta</a></li>
+      </ul>
+    </li>
+    <li class="submenu"> <a href="#"><i class="icon-book"></i> <span>Questionário</span> <span class="label label-important">1</span></a>
+      <ul>
+        <li><a href="questionario-cadastro.html"><i class="icon-plus-sign"></i> Cadastro</a></li>
+      </ul>
+    </li>
+    <li><a href="avaliacao.html"><i class="icon icon-tint"></i> <span>Formulário de Avaliação</span></a></li>
+  </ul>
+</div>
+<!--sidebar-menu-->
+
+<!--main-container-part-->
+<div id="content">
+  <div id="content-header">
+    <div id="breadcrumb"> <a href="index.html" title="Para início" class="tip-bottom"><i class="icon-home"></i> Início</a> <a href="#" class="current">Consulta avaliação</a> </div>
+    
+    <div class="span11">
+     
+      <div class="widget-box">
+        <div class="widget-title bg_lo"  data-toggle="collapse" href="#collapseG3" > <span class="icon"> <i class="icon-chevron-down"></i> </span>
+          <h5>News updates</h5>
+        </div>
+        <div class="widget-content nopadding updates collapse in" id="collapseG3">
+          <div class="new-update clearfix"><i class="icon-ok-sign"></i>
+            <div class="update-done"><a title="" href="#"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a> <span>dolor sit amet, consectetur adipiscing eli</span> </div>
+            <div class="update-date"><span class="update-day">20</span>jan</div>
+          </div>
+          <div class="new-update clearfix"> <i class="icon-gift"></i> <span class="update-notice"> <a title="" href="#"><strong>Congratulation Maruti, Happy Birthday </strong></a> <span>many many happy returns of the day</span> </span> <span class="update-date"><span class="update-day">11</span>jan</span> </div>
+          <div class="new-update clearfix"> <i class="icon-move"></i> <span class="update-alert"> <a title="" href="#"><strong>Maruti is a Responsive Admin theme</strong></a> <span>But already everything was solved. It will ...</span> </span> <span class="update-date"><span class="update-day">07</span>Jan</span> </div>
+          <div class="new-update clearfix"> <i class="icon-leaf"></i> <span class="update-done"> <a title="" href="#"><strong>Envato approved Maruti Admin template</strong></a> <span>i am very happy to approved by TF</span> </span> <span class="update-date"><span class="update-day">05</span>jan</span> </div>
+          <div class="new-update clearfix"> <i class="icon-question-sign"></i> <span class="update-notice"> <a title="" href="#"><strong>I am alwayse here if you have any question</strong></a> <span>we glad that you choose our template</span> </span> <span class="update-date"><span class="update-day">01</span>jan</span> </div>
+        </div>
+      </div>
+      
+      <div class="widget-box">
+          <div class="widget-title bg_lo"  data-toggle="collapse" href="#collapseG3" > <span class="icon"> <i class="icon-chevron-down"></i> </span>
+            <h5>News updates</h5>
+          </div>
+          <div class="widget-content nopadding updates collapse in" id="collapseG3">
+            <div class="new-update clearfix"><i class="icon-ok-sign"></i>
+              <div class="update-done"><a title="" href="#"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a> <span>dolor sit amet, consectetur adipiscing eli</span> </div>
+              <div class="update-date"><span class="update-day">20</span>jan</div>
+            </div>
+            <div class="new-update clearfix"> <i class="icon-gift"></i> <span class="update-notice"> <a title="" href="#"><strong>Congratulation Maruti, Happy Birthday </strong></a> <span>many many happy returns of the day</span> </span> <span class="update-date"><span class="update-day">11</span>jan</span> </div>
+            <div class="new-update clearfix"> <i class="icon-move"></i> <span class="update-alert"> <a title="" href="#"><strong>Maruti is a Responsive Admin theme</strong></a> <span>But already everything was solved. It will ...</span> </span> <span class="update-date"><span class="update-day">07</span>Jan</span> </div>
+            <div class="new-update clearfix"> <i class="icon-leaf"></i> <span class="update-done"> <a title="" href="#"><strong>Envato approved Maruti Admin template</strong></a> <span>i am very happy to approved by TF</span> </span> <span class="update-date"><span class="update-day">05</span>jan</span> </div>
+            <div class="new-update clearfix"> <i class="icon-question-sign"></i> <span class="update-notice"> <a title="" href="#"><strong>I am alwayse here if you have any question</strong></a> <span>we glad that you choose our template</span> </span> <span class="update-date"><span class="update-day">01</span>jan</span> </div>
+          </div>
+        </div>
+
+        <div class="widget-box">
+            <div class="widget-title bg_lo"  data-toggle="collapse" href="#collapseG3" > <span class="icon"> <i class="icon-chevron-down"></i> </span>
+              <h5>News updates</h5>
+            </div>
+            <div class="widget-content nopadding updates collapse in" id="collapseG3">
+              <div class="new-update clearfix"><i class="icon-ok-sign"></i>
+                <div class="update-done"><a title="" href="#"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a> <span>dolor sit amet, consectetur adipiscing eli</span> </div>
+                <div class="update-date"><span class="update-day">20</span>jan</div>
+              </div>
+              <div class="new-update clearfix"> <i class="icon-gift"></i> <span class="update-notice"> <a title="" href="#"><strong>Congratulation Maruti, Happy Birthday </strong></a> <span>many many happy returns of the day</span> </span> <span class="update-date"><span class="update-day">11</span>jan</span> </div>
+              <div class="new-update clearfix"> <i class="icon-move"></i> <span class="update-alert"> <a title="" href="#"><strong>Maruti is a Responsive Admin theme</strong></a> <span>But already everything was solved. It will ...</span> </span> <span class="update-date"><span class="update-day">07</span>Jan</span> </div>
+              <div class="new-update clearfix"> <i class="icon-leaf"></i> <span class="update-done"> <a title="" href="#"><strong>Envato approved Maruti Admin template</strong></a> <span>i am very happy to approved by TF</span> </span> <span class="update-date"><span class="update-day">05</span>jan</span> </div>
+              <div class="new-update clearfix"> <i class="icon-question-sign"></i> <span class="update-notice"> <a title="" href="#"><strong>I am alwayse here if you have any question</strong></a> <span>we glad that you choose our template</span> </span> <span class="update-date"><span class="update-day">01</span>jan</span> </div>
+            </div>
+          </div>
+
+      <div class="widget-box">
+          <div class="widget-title bg_lo"  data-toggle="collapse" href="#collapseG3" > <span class="icon"> <i class="icon-chevron-down"></i> </span>
+            <h5>News updates</h5>
+          </div>
+          <div class="widget-content nopadding updates collapse in" id="collapseG3">
+            <div class="new-update clearfix"><i class="icon-ok-sign"></i>
+              <div class="update-done"><a title="" href="#"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a> <span>dolor sit amet, consectetur adipiscing eli</span> </div>
+              <div class="update-date"><span class="update-day">20</span>jan</div>
+            </div>
+            <div class="new-update clearfix"> <i class="icon-gift"></i> <span class="update-notice"> <a title="" href="#"><strong>Congratulation Maruti, Happy Birthday </strong></a> <span>many many happy returns of the day</span> </span> <span class="update-date"><span class="update-day">11</span>jan</span> </div>
+            <div class="new-update clearfix"> <i class="icon-move"></i> <span class="update-alert"> <a title="" href="#"><strong>Maruti is a Responsive Admin theme</strong></a> <span>But already everything was solved. It will ...</span> </span> <span class="update-date"><span class="update-day">07</span>Jan</span> </div>
+            <div class="new-update clearfix"> <i class="icon-leaf"></i> <span class="update-done"> <a title="" href="#"><strong>Envato approved Maruti Admin template</strong></a> <span>i am very happy to approved by TF</span> </span> <span class="update-date"><span class="update-day">05</span>jan</span> </div>
+            <div class="new-update clearfix"> <i class="icon-question-sign"></i> <span class="update-notice"> <a title="" href="#"><strong>I am alwayse here if you have any question</strong></a> <span>we glad that you choose our template</span> </span> <span class="update-date"><span class="update-day">01</span>jan</span> </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div>
+    <hr>
+
+    <div >
+
+        <div class="span12"> 
+            <div class="widget-box">
+              <div class="widget-title">
+                <ul class="nav nav-tabs">
+                  <li class="active"><a data-toggle="tab" href="#tab1">Desempenho</a></li>
+                  <li><a data-toggle="tab" href="#tab2">Comportamento</a></li>
+                  <li><a data-toggle="tab" href="#tab3">Conhecimento Técnico</a></li>
+                  <li><a data-toggle="tab" href="#tab4">Conduta</a></li>
+                </ul>
+              </div>
+              <div class="widget-content tab-content">
+                <div id="tab1" class="tab-pane active">
+                    <div class="widget-box collapsible">
+                        <div class="widget-title"> <a href="#collapseOne" data-toggle="collapse"> <span class="icon"><i class="icon-arrow-right"></i></span>
+                          <h5>Apresenta volume e qualidade de trabalho num intervalo de tempo satisfatório?</h5>
+                          </a> </div>
+                        <div class="collapse in" id="collapseOne">
+                
+
+                            <div class="controls" style="margin-left: 20px; margin-top: 10px">
+                              <label>
+                                <input type="radio" name="radios" />  Ultrapassa o volume de trabalho exigido, entregando as tarefas
+                                antes dos prazos estabelecidos e com qualidade;</label>
+                              <label>
+                                <input type="radio" name="radios" />  Apresenta resultados satisfatórios, entregando as tarefas
+                                dentro dos prazos estabelecidos;</label>
+                              <label>
+                                <input type="radio" name="radios" /> Apresenta resultados para o trabalho exigido, porém não
+                                cumpre os prazos estabelecidos;</label>
+                              <label>
+                                  <input type="radio" name="radios" />  Demonstra resultados abaixo do exigido e as tarefas são
+                                  sempre entregues fora dos prazos previstos.</label>
+                            </div>
+                   
+                        </div>
+                       
+                        <div class="widget-title"> <a href="#collapseTwo" data-toggle="collapse"> <span class="icon"><i class="icon-arrow-right"></i></span>
+                          <h5>O funcionário é organizado em suas atividades?</h5>
+                          </a> </div>
+                         <div class="collapse" id="collapseTwo">
+                          <div class="controls" style="margin-left: 20px; margin-top: 10px">
+                            <label>
+                              <input type="radio" name="radios1" />  Nunca</label>
+                            <label>
+                              <input type="radio" name="radios1" />  Pouco</label>
+                            <label>
+                              <input type="radio" name="radios1" />  Algumas vezes</label>
+                            <label>
+                              <input type="radio" name="radios1" />  Muito</label>
+                              <label>
+                              <input type="radio" name="radios1" />  Quase sempre</label>
+                          </div>
+                        </div>
+                        <div class="widget-title"> <a href="#collapseThree" data-toggle="collapse"> <span class="icon"><i class="icon-arrow-right"></i></span>
+                          <h5>Grau de exatidão, correção e clareza dos trabalhos executados.</h5>
+                          </a> </div>
+                        <div class="collapse" id="collapseThree">
+                          <div class="controls" style="margin-left: 20px; margin-top: 10px">
+                            <label>
+                              <input type="radio" name="radios6" />  Seu trabalho é de difícil entendimento, apresentando erros e incorreções constantemente, mesmo sob orientação.</label>
+                            <label>
+                              <input type="radio" name="radios6" />  Seu trabalho é de entendimento razoável, eventualmente apresenta erros e incorreções, sendo necessário orientação  para corrigi-los.</label>
+                            <label>
+                              <input type="radio" name="radios6" />  eu trabalho é de fácil entendimento, raramente apresenta erros e incorreções e quase nunca precisa de orientações para serem corrigidos.</label>
+                            <label>
+                              <input type="radio" name="radios6" />  Seu trabalho é de excelente entendimento, não apresenta erros nem incorreções e não há necessidade de orientações.</label>
+                          </div>
+                        </div>
+                        <div class="widget-title"> <a href="#collapseTw1" data-toggle="collapse"> <span class="icon"><i class="icon-arrow-right"></i></span>
+                          <h5>O funcionário apresenta os resultados esperados de seu trabalho?</h5>
+                          </a> </div>
+                         <div class="collapse" id="collapseTw1">
+                          <div class="controls" style="margin-left: 20px; margin-top: 10px">
+                            <label>
+                              <input type="radio" name="radios7" />  Nunca</label>
+                            <label>
+                              <input type="radio" name="radios7" />  Pouco</label>
+                            <label>
+                              <input type="radio" name="radios7" />  Algumas vezes</label>
+                            <label>
+                              <input type="radio" name="radios7" />  Muito</label>
+                              <label>
+                              <input type="radio" name="radios7" />  Quase sempre</label>
+                          </div>
+                        </div>
+                    </div> 
+                </div>
+
+
+                <div id="tab2" class="tab-pane">
+                    <div class="widget-box collapsible">
+                        <div class="widget-title"> <a href="#collapseOne2" data-toggle="collapse"> <span class="icon"><i class="icon-arrow-right"></i></span>
+                          <h5>É relutante em aceitar as decisões acordadas pelo grupo?</h5>
+                          </a> </div>
+                        <div class="collapse in" id="collapseOne2">
+                          <div class="controls" style="margin-left: 20px; margin-top: 10px">
+                            <label>
+                              <input type="radio" name="radios2" />  Nunca</label>
+                            <label>
+                              <input type="radio" name="radios2" />  Pouco</label>
+                            <label>
+                              <input type="radio" name="radios2" />  Algumas vezes</label>
+                            <label>
+                              <input type="radio" name="radios2" />  Muito</label>
+                              <label>
+                              <input type="radio" name="radios2" />  Quase sempre</label>
+                          </div>
+                        </div>
+                        <div class="widget-title"> <a href="#collapseTwo2" data-toggle="collapse"> <span class="icon"><i class="icon-arrow-right"></i></span>
+                          <h5>Adota providências em situações não definidas pela
+                            chefia ou não previstas nos procedimentos.</h5>
+                          </a> </div>
+                        <div class="collapse" id="collapseTwo2">
+                          <div class="controls" style="margin-left: 20px; margin-top: 10px">
+                            <label>
+                              <input type="radio" name="radios5" />   Tem facilidade em buscar soluções para situações imprevistas
+                              do trabalho, quando solicitado;</label>
+                            <label>
+                              <input type="radio" name="radios5" />   Esforça-se para solucionar algumas situações imprevistas na
+                              execução do trabalho;</label>
+                            <label>
+                              <input type="radio" name="radios5" />  Eventualmente apresenta soluções para situações imprevistas
+                              do trabalho, quando solicitado;</label>
+                            <label>
+                              <input type="radio" name="radios5" />  Deixa de solucionar problemas decorrentes de situações
+                              imprevistas na execução do trabalho.</label>
+                          </div>
+                        </div>
+                        <div class="widget-title"> <a href="#collapseThree2" data-toggle="collapse"> <span class="icon"><i class="icon-arrow-right"></i></span>
+                          <h5>Pergunta 3</h5>
+                          </a> </div>
+                        <div class="collapse" id="collapseThree2">
+                            <textarea class="span12"></textarea>
+                        </div>
+                     </div> 
+                </div>
+
+
+                <div id="tab3" class="tab-pane">
+                    <div class="widget-box collapsible">
+                        <div class="widget-title"> <a href="#collapseOne3" data-toggle="collapse"> <span class="icon"><i class="icon-arrow-right"></i></span>
+                          <h5>Pergunta 1</h5>
+                          </a> </div>
+                        <div class="collapse in" id="collapseOne3">
+                            <textarea class="span12"></textarea>
+                        </div>
+                        <div class="widget-title"> <a href="#collapseTwo3" data-toggle="collapse"> <span class="icon"><i class="icon-arrow-right"></i></span>
+                          <h5>Pergunta 2</h5>
+                          </a> </div>
+                        <div class="collapse" id="collapseTwo3">
+                            <textarea class="span12"></textarea>
+                        </div>
+                        <div class="widget-title"> <a href="#collapseThree3" data-toggle="collapse"> <span class="icon"><i class="icon-arrow-right"></i></span>
+                          <h5>Pergunta 3</h5>
+                          </a> </div>
+                        <div class="collapse" id="collapseThree3">
+                            <textarea class="span12"></textarea>
+                        </div>
+                    </div> 
+                </div>
+
+
+                <div id="tab4" class="tab-pane">
+                    <div class="widget-box collapsible">
+                        <div class="widget-title"> <a href="#collapseOne4" data-toggle="collapse"> <span class="icon"><i class="icon-arrow-right"></i></span>
+                          <h5>O funcionário é organizado em suas atividades?</h5>
+                          </a> </div>
+                        <div class="collapse in" id="collapseOne4">
+                          <div class="controls" style="margin-left: 20px; margin-top: 10px">
+                            <label>
+                              <input type="radio" name="radios4" />  Nunca</label>
+                            <label>
+                              <input type="radio" name="radios4" />  Pouco</label>
+                            <label>
+                              <input type="radio" name="radios4" />  Algumas vezes</label>
+                            <label>
+                              <input type="radio" name="radios4" />  Muito</label>
+                              <label>
+                              <input type="radio" name="radios4" />  Quase sempre</label>
+                          </div>
+                        </div>
+                        <div class="widget-title"> <a href="#collapseTwo4" data-toggle="collapse"> <span class="icon"><i class="icon-arrow-right"></i></span>
+                          <h5>Pergunta 2</h5>
+                          </a> </div>
+                        <div class="collapse" id="collapseTwo4">
+                            <textarea class="span12"></textarea>
+                        </div>
+                        <div class="widget-title"> <a href="#collapseThree4" data-toggle="collapse"> <span class="icon"><i class="icon-arrow-right"></i></span>
+                          <h5>Pergunta 3</h5>
+                          </a> </div>
+                        <div class="collapse" id="collapseThree4">
+                            <textarea class="span12"></textarea>
+                        </div>
+                    </div> 
+                </div>
+
+
+              </div>
+            </div>  
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn-success">Atualizar</button>
+          </div>
+    </div>
+    <hr>
+    
+  </div>
+</div>
+<!--main-container-part-->
+
+<!--Footer-part-->
+<div class="row-fluid">
+    <div id="footer" class="span12">  <a href="http://themedesigner.in"></a> </div>
+</div>
+<!--end-Footer-part-->
+<script src="js/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.ui.custom.js"></script> 
+<script src="js/matrix.js"></script>
+</body>
+</html>
